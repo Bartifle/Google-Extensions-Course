@@ -1,0 +1,20 @@
+* {
+    display: none !important;
+}
+
+html,
+body,
+*:has(main),
+main,
+main * {
+    display: revert !important;
+}
+
+[role="navigation"] {
+    display: none !important;
+}
+
+main {
+    margin: auto;
+    max-width: 700px;
+}
